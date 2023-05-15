@@ -7,10 +7,10 @@ SRCREV = "d68144779f2b613cbd1eb892b6e06aeffff54009"
 
 include linux-altera.inc
 
-FILESEXTRAPATHS_prepend := "${THISDIR}/config:"
+FILESEXTRAPATHS:prepend := "${THISDIR}/config:"
 
-SRC_URI_append_cyclone5 = " file://lbdaf.scc "
-SRC_URI_append_arria5 = " file://lbdaf.scc "
-SRC_URI_append_arria10 = " file://lbdaf.scc "
-SRC_URI_append_stratix10 = " file://jffs2.scc file://gpio_sys.scc "
-SRC_URI_append_agilex = " file://jffs2.scc file://gpio_sys.scc "
+SRC_URI:append_cyclone5 = " file://lbdaf.scc "
+SRC_URI:append_arria5 = " file://lbdaf.scc "
+SRC_URI:append_arria10 = " file://lbdaf.scc "
+SRC_URI:append_stratix10 = " file://jffs2.scc file://gpio_sys.scc "
+SRC_URI:append_agilex = " file://jffs2.scc file://gpio_sys.scc "

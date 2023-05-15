@@ -77,7 +77,7 @@ For Yocto:
 
 For Angstrom:
 
-	ANGSTROM_GCC_VERSION_arm = "linaro-4.9%"
+	ANGSTROM_GCC_VERSION:arm = "linaro-4.9%"
 
 
 
